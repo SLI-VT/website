@@ -13,8 +13,23 @@
     src: url(../font/DINNextLTPro.ttf);
     }
 
-$headings-font-family: 'Good Times';
-$font-family-base: 'DIN Next LT Pro';
+@font-face {
+    font-family: 'EuroStyle';
+    src: url(../font/EuroStyle.ttf);
+}
+
+@font-face {
+    font-family: 'EurostileBold';
+    src: url(../font/EurostileBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/Inter.ttf);
+}
+
+$headings-font-family: 'EurostileBold';
+$font-family-base: 'Inter';
 
 /* any style customization must be before the bootstrap import */
 @import "bootstrap/bootstrap";
